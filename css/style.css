@@ -150,6 +150,28 @@ body {
     gap: 1rem;
 }
 
+#qualityValue {
+    font-weight: bold;
+    color: var(--primary-color);
+    min-width: 45px;
+    text-align: right;
+}
+
+.compression-tip {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+    font-style: italic;
+}
+
+#compressionInfo {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 1.2rem;
+}
+
 /* 滑块样式 */
 input[type="range"] {
     -webkit-appearance: none;
